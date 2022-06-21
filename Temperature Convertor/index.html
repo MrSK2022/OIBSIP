@@ -1,1 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container" >
+            <span id="head">Temperature Converter</span>
+            <fieldset class="content">
+                <legend class="ltext">Celsius</legend>
+                <input type="number" placeholder="0" id="first" autofocus>
+            </fieldset>
+            <fieldset class="content">
+                <legend class="ltext">Fahrenheit</legend>
+                <input type="number" placeholder="32" id="second">
+            </fieldset>
+        </div>
+        <script>
+            var celsvalue=document.getElementById('first');
+            var fahvalue=document.getElementById('second');
 
+            first.addEventListener('input',function(){
+                c=this.value;
+                f=(c * 9/5 ) + 32;
+                fahvalue.value=f;
+            })
+
+            second.addEventListener('input',function(){
+                f=this.value;
+                c=(f-32)*5/9;
+                celsvalue.value=c;
+            })
+
+        </script>
+    </body>
+</html>
