@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#welcome{
+    /*border:5px dotted green;*/
+    background-image:url(whitellambo.jpg);
+    height:80vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+       
+}
+
+#weldiv{
+    /*border:5px solid black;*/
+    align-items:center;
+    padding:5px;
+    margin-top:10px;
+    box-shadow:10px 10px 15px 7px rgb(97, 97, 94);
+    border-radius:20px;
+    
+}
+#black{
+    background-color:rgb(184, 172, 172);
+    width:100vw;
+    min-height: 250px;
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+    border-radius:7px;
+}
+#blackbox{
+    box-shadow: 10px 10px 12px 7px rgb(15, 15, 15);
+    border-radius: 10px;
+    padding:15x;
+
+}
+.card{
+    max-width: 225px;
+    height:370px;
+    border-radius:20px;
+    box-shadow: 3px 3px 15px 3px rgb(112, 107, 107);
+    
+}
+#cardbox{
+    /*border:5px solid green;*/
+    width:100vw;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    border-radius:20px;
+    
+     
+}
+.container{
+    /*border:2px solid red;*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+}
+.image{
+    /*border: 2px solid red;*/
+    border-radius:20px;
+    overflow:hidden;
+}
+.cardcontent{
+    margin:0px 20px;
+}
+.heading{
+    font-size:20px;
+    text-shadow: 5px 3px 15px rgb(70, 64, 64);
+}
+#last{
+    /*border:2px solid hotpink;*/
+    display:flex;
+    width:100vw;
+    margin:5px 0px;
+    padding:20px;
+    background-color:rgb(27, 23, 23);
+    color:white;
+    border-radius:10px;
+}
+.lastdiv{
+    margin:20px;
+}
+.lasthead{
+    display:inline-block;
+    font-size:20px;
+    font-weight:700;
+    padding-bottom:20px;
+    text-shadow: 7px 7px 10px rgb(3, 3, 3);
+}
+#foot{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    min-height:70px;
+    background-color: brown;
+    color:rgb(228, 192, 31);
+    border-radius:5px;
+    margin:5px 0px;
+    font-size: 25px;
+    font-weight:700;
+    text-shadow: 5px 5px 7px rgb(27, 27, 26);
+}
+.btn{
+    background-color:rgb(71, 80, 80);
+    color:rgb(208, 221, 208);
+    font-size:18px;
+    margin-bottom:20px;
+    padding:10px;
+    font-weight: 700;
+    text-shadow:5px 5px 7px rgb(14, 14, 13);
+    box-shadow: 6px 6px 10px 2px grey;
+    border-radius:20px;
+}
+.btncontainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow: 5px 5px 10px 4px rgb(112, 107, 107);
+    transition: 0.2s ease-in-out;
+}
